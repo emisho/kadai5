@@ -11,7 +11,7 @@ public class IntToEng {
 
         System.out.println(translateEng(input));
     }
-
+    
     // 数値を英訳する変換するメソッド
     static String translateEng(int n) {
     	if(n==0) return "zero";
