@@ -56,6 +56,21 @@ public class IntToEng {
     		int A=n-60;
     		return "sixty "+a[A];
     	}
+    	if(n>=70 && n<80){
+    		int A=n-70;
+    		return "seventy"+a[A];
+    	}
+    	if(n>=80 && n<90){
+    		int A=n-80;
+    		return "eighty "+a[A];
+    	}
+    	if(n>=90 && n<100){
+    		int A=n-90;
+    		return "ninety "+a[A];
+    	}
+    	if(n==100){
+    		return "one hundred";
+    	}
     	return "";
     }
 }
