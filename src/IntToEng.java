@@ -34,8 +34,7 @@ public class IntToEng {
     	if(n==17) return "seventeen";
     	if(n==18) return "eighteen";
     	if(n==19) return "nineteen";
-    	if(n==20) return "twenty";
-    	
+    	if(n==20) return "twenty";	
     	return "";
     }
 }
