@@ -33,8 +33,13 @@ public class IntToEng {
     	if(n==16) return "sixteen";
     	if(n==17) return "seventeen";
     	if(n==18) return "eighteen";
-    	if(n==19) return "nineteen";
-    	if(n==20) return "twenty";	
+    	if(n==19) return "nineteen";	
+    	
+    	String a[] = {"zero","one","two","three","four","five","six","seven","eight","nine","ten"}; 
+    	if(n>=20 && n<30){
+    		int A=n-20;
+    		return "twenty "+a[A];
+    	}
     	return "";
     }
 }
