@@ -34,22 +34,27 @@ public class IntToEng {
     	if(n==17) return "seventeen";
     	if(n==18) return "eighteen";
     	if(n==19) return "nineteen";	
-    	if(n==20) return "twenty";
-    	
+  
     	String a[] = {"","one","two","three","four","five","six","seven","eight","nine"}; 
-    	if(n>=21 && n<30){
+    	if(n>=20 && n<30){
     		int A=n-20;
     		return "twenty "+a[A];
     	}
-    	if(n==30) return "thirty";
-    	if(n>=31 && n<40){
+    	if(n>=30 && n<40){
     		int A=n-30;
     		return "thirty "+a[A];
     	}
-    	if(n==40) return "fourty";
-    	if(n>=41 && n<50){
+    	if(n>=40 && n<50){
     		int A=n-40;
     		return "fourty "+a[A];
+    	}
+       	if(n>=50 && n<60){
+    		int A=n-50;
+    		return "fifty"+a[A];
+    	}
+    	if(n>=60 && n<70){
+    		int A=n-60;
+    		return "sixty "+a[A];
     	}
     	return "";
     }
